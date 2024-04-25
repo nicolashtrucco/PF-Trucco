@@ -1,0 +1,53 @@
+header {
+    nav {
+        .navbar-logo {
+          height: 2rem;  
+        }
+        .collapse {
+
+            ul {
+                li {
+                    .nav-link{
+                        &:hover {
+                            color: $color-secundario;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header-content {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(../Img/Fondo\ Main\ Ojo\ 2.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+
+        .container {
+            @include container;
+            text-align: center;
+            
+            .txt-p {
+                margin-top: 20px;
+                font-size: 1.2rem; 
+                color: #FFFFFF;
+    
+                .header-span {
+                    color: #a9927d;
+                    font-weight: 600;
+                }
+            }
+            
+            .btn-1 {
+                @include btn-1;
+                    &:hover {
+                    background-color: $color-principal;
+                }
+            }
+        }
+
+    }
+ }

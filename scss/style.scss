@@ -1,0 +1,40 @@
+//Variables
+$color-principal: #94877b;
+$color-secundario: #a9927d;
+
+//Mixing
+@mixin container {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+@mixin btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #a9927d;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: 0.3s;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+//Comandos Globales
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+ //Imports
+ @import "../scss/footer";
+ @import "../scss/header";
+ @import "../scss/main";
+

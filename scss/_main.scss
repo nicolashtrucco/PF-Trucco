@@ -1,0 +1,172 @@
+main {
+    .nosotros {
+        padding: 50px 0;
+        background-color: #e1e2e6;
+        text-align: center;
+        
+        h1 {
+            font-size: 1.5rem;
+            
+        }
+        p {
+            margin: 1rem 2rem 1rem 2rem;
+        }
+    }
+
+    .servicios {
+        padding: 15px 0;
+        background-color: #000000;
+        text-align: center;
+        background-position: center;
+
+        .servicios-content {
+            text-align: center;
+            margin-top: 50px;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+
+            
+        }
+    }
+
+    .wrapper {
+        @include container;
+        padding-bottom: 2rem;
+        justify-content: center;
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            .card-group {
+                text-align: center
+            }
+    
+            .card {
+                width: 15rem;
+                margin: 2rem 2rem 1rem 2rem;
+                border: 0;
+                    .card-img-top {
+                        height: 20rem;
+                    }
+                    h3 {
+                        font-size: 20px;
+                    }
+                }
+            
+        }
+        .btn-1 {
+            @include btn-1; 
+            &:hover {
+                background-color: $color-principal;
+            }
+        }
+    }
+
+    .contact {
+        text-align: center;
+        .contact-form { 
+            margin: 3rem 2rem 0.5rem 2rem;
+        }
+
+        button {
+            @include btn-1;
+            border: 0;
+            margin-bottom: 1.5rem;
+            &:hover {
+                background-color: $color-principal;
+            }
+        }
+        
+    }
+
+    .nuestrosProyectos {
+        background-color: #e1e2e6;
+        padding-bottom: 2rem;
+        .nuestrosProyectos-content {
+            @include container;
+            padding-bottom: 2rem;
+            justify-content: center;
+            
+            h1 {
+                text-align: center;
+                padding-top: 2rem;
+                font-size: 1.7rem;
+            }
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            .card-group {
+                text-align: center
+            }
+    
+            .card {
+                width: 15rem;
+                margin: 2rem 2rem 1rem 2rem;
+                border: 0;
+                    .card-img-top {
+                        height: 20rem;
+                    }
+                    h3 {
+                        font-size: 20px;
+                    }
+                }
+            
+        }
+        .btn-1 {
+            @include btn-1; 
+            &:hover {
+                background-color: $color-principal;
+            }
+        }
+    }
+
+    .reservas {
+        background-color: #e1e2e6;
+        padding-bottom: 2rem;
+        justify-content: center;
+        
+        .cards {
+            @include container;
+            display: flex;
+            justify-content: center;
+            .card-group {
+                text-align: center
+            }
+    
+            .card {
+                width: 15rem;
+                margin: 2rem 2rem 1rem 2rem;
+                border: 0;
+                h1 {
+                    font-size: 1.5rem;
+                }
+                    .card-img-top {
+                        height: 20rem;
+                    }
+                    h3 {
+                        font-size: 20px;
+                    }
+                }
+            
+        }
+        .btn-1 {
+            border: 0;
+            @include btn-1; 
+            &:hover {
+                background-color: $color-principal;
+            }
+        }
+    }
+
+    .contact-content {
+        margin: 0 3rem 0 3rem;
+
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+}

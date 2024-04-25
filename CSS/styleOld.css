@@ -1,0 +1,375 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+
+body {
+   font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+
+nav ul li a {
+   color: #ffffff;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.header-content {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url(../Img/Fondo\ Main\ Ojo\ 2.jpg);
+   background-position: center bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 70vh;
+   display: flex;
+   align-items: center;
+}
+
+.menuLogo {
+   height: 40px;
+   width: auto;
+}
+
+.menu {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.menu .navbar ul li {
+   position: relative;
+   float: left;
+}
+nav {
+   background-color: #000000;
+}
+
+.burger {
+   color: #ffffff;
+}
+.menu .navbar ul li a {
+   font-size: 1.125rem;
+   /* 18 Px*/
+   color: #ffffff;
+   display: block;
+   font-weight: bold;
+   transition: 0.3s;
+   text-decoration: none;
+}
+
+.menu .navbar ul li a:hover {
+   color: #a9927d;
+}
+
+.header-content {
+   text-align: center;
+}
+
+.header-content p {
+   color: #ffffff;
+   font-size: 1.2rem;
+   padding: 0 200px;
+   margin-bottom: 40px;
+   line-height: 30px;
+}
+
+.btn-1 {
+   display: inline-block;
+   padding: 11px 35px;
+   background-color: #a9927d;
+   border-radius: 5px;
+   color: #ffffff;
+   text-transform: uppercase;
+   transition: 0.3s;
+   text-decoration: none;
+}
+
+.btn-1:hover {
+   background-color: #94877b;
+}
+
+/* SECTION NOSOTROS*/
+
+.nosotros {
+   padding: 50px 0;
+   background-color: #e1e2e6;
+   text-align: center;
+}
+
+.nosotros-content {
+   text-align: center;
+   padding: 0 150px;
+   font-size: 1.5rem;
+   line-height: 30px;
+}
+
+.header-span {
+   color: #a9927d;
+   font-weight: 600;
+}
+
+.txt-p {
+   margin-top: 20px;
+   font-size: 1.2rem;   
+}
+
+/* SECTION SERVICIOS*/
+
+.servicios {
+   padding: 15px 0;
+   background-color: #000000;
+   text-align: center;
+   background-position: center;
+}
+
+.servicios-content {
+   text-align: center;
+   margin-top: 50px;
+   color: #ffffff;
+   display: flex;
+   justify-content: center;
+}
+
+.serviciosflex {
+   display: flex;
+   justify-content: center;
+}
+.servicios-content h2 {
+   padding: 0 150px;
+   font-size: 2.3rem;
+   line-height: 30px;
+   margin-bottom: 20px;
+}
+
+.servicios-demandados {
+   display: flex;
+   justify-content: center;
+   color: #ffffff;
+}
+
+.servicio-demandados {
+   margin: 20px 20px 0 20px;
+   padding: 15px;
+}
+
+.servicios-img {
+   height: 350px;
+   width: 250px;
+   margin: 0%;
+}
+
+.servicios-parrafo {
+    width: 250px;
+}
+
+.servicio-letra {
+   margin-top: 15px;
+   font-size: 22px;
+   font-weight: 100;
+   color: #ffffff;
+   text-decoration: none;
+}
+
+.txt-p2 {
+   margin-top: 10px;
+   font-size: 15px;
+   max-width: 250px;
+}
+
+.btn-2 {
+   display: inline-block;
+   padding: 11px 35px;
+   background-color: #a9927d;
+   border-radius: 5px;
+   color: #ffffff;
+   text-transform: uppercase;
+   margin: 0 0 40px 0;
+   transition: 0.3s;
+   border: 0;
+   text-decoration: none;
+}
+
+.btn-2:hover {
+   background-color: #94877b;
+}
+/* SECTION CONTACTO*/
+
+/* FOOTER */
+
+.footer {
+   background-color: #000000;
+   padding: 0 0 0.5rem 0;
+}
+
+.txt-p3 {
+   color: #ffffff;
+   font-size: 0.5rem;
+   text-align: center;
+}
+
+.maps {
+   width: 100%;
+}
+
+.redesSociales {
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+}
+
+.redesSize {
+   height: 25px;
+   width: 25px;
+   margin: 1rem 0 0.5rem 0;
+}
+
+/* -----PORTAFOLIO.HTML----- */
+
+/* SECTION NUESTROS PROYECTOS*/
+
+.nuestrosProyectos {
+   padding: 100px 0 25px 0;
+   background-color: #e1e2e6;
+}
+
+.nuestrosProyectos-content {
+   text-align: center;
+   padding: 0 150px;
+   font-size: 1.5rem;
+   line-height: 30px;
+}
+
+.nuestrosProyectos-imgs {
+
+   margin: 50px 150px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   text-align: center;
+   row-gap: 0.6rem;
+   column-gap: 0.8rem;
+   background-size: cover;   
+}
+
+.nuestrosProyectos-img img{
+   max-height: 375px;
+   width: 100%;
+   background-position: center;
+}
+
+/* Section Contact */
+
+.contact {
+   text-align: center;
+   margin: 0 20% 0 20%;
+   padding: 50px 0; 
+   background-color: #ffffff;
+}
+
+/* SERVICIOS */
+
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.container-fostrap {
+  display: table-cell;
+  padding: 2rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h1.heading {
+  color: #fff;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+  color: #505050;
+}
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 3.55em;
+  }
+}
+@media (min-width: 760px) {
+  h1.heading {
+    font-size: 3.05em;
+  }
+}
+@media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+  }
+} 
+.card {
+  display: block; 
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12); 
+    transition: box-shadow .25s; 
+}
+
+.img-card {
+  width: 100%;
+  height:200px;
+  border-top-left-radius:2px;
+  border-top-right-radius:2px;
+  display:block;
+    overflow: hidden;
+}
+.img-card img{
+  width: 100%;
+  height: 200px;
+  object-fit:cover; 
+  transition: all .25s ease;
+} 
+.card-content {
+  padding:15px;
+  text-align:left;
+}
+.card-title {
+  margin-top:0px;
+  font-weight: 700;
+  font-size: 1.65em;
+}
+.card-title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.btn-3 {
+   display: inline-block;
+   padding: 11px 60px;
+   background-color: #a9927d;
+   border-radius: 5px;
+   color: #ffffff;
+   text-transform: uppercase;
+   transition: 0.3s;
+   text-decoration: none;
+  
+}
+
+
+
+/* MEDIA QUERIES*/
+
